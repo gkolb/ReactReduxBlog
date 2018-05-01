@@ -28,7 +28,7 @@ class PostsIndex extends Component {
           </Link>
         </div>
         <h3>Posts</h3>
-        <ul classNAme="list-group">
+        <ul className="list-group">
           {this.renderPosts()}
         </ul>
       </div>
