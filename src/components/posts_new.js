@@ -13,7 +13,7 @@ class PostsNew extends Component {
           {...field.input}
         />
         {/*connect error object to name on <Field /> they must match!*/}
-        {field.meta.error}
+        {field.meta.touched ? field.meta.error : ''}
       </div>
     );
   }
